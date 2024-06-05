@@ -1,15 +1,18 @@
 import React from 'react';
+import Image from "next/image";
 
 const FrankfurtHouse = () => {
   return (
     <div className="p-4 max-w-3xl mx-auto">
       <div className="bg-white shadow-md rounded-lg overflow-hidden">
         <div className="relative">
-          <img
-            className="w-full h-64 object-cover"
-            src="your-image-url.jpg"
-            alt="Frankfurt House"
-          />
+        <Image
+                alt="Nagoya House"
+                src="/pg.webp"
+                height={250}
+                width={550}
+                className='w-full md:w-auto'
+            />
           <div className="absolute top-2 left-2 bg-gray-800 text-white px-2 py-1 rounded">
             Unisex
           </div>

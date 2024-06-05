@@ -3,7 +3,7 @@ import React from 'react';
 const PropertyCard = ({ property }) => {
   return (
     <div className="bg-white shadow-md rounded-lg p-4">
-      <img src={property.imageUrl} alt={property.name} className="w-full h-48 object-cover rounded-md mb-4" />
+      <img src="/pg.webp" alt={property.name} className="w-full h-48 object-cover rounded-md mb-4" />
       <h3 className="text-lg font-bold">{property.name}</h3>
       <p className="text-gray-600">{property.price}</p>
       <p className="text-gray-600">{property.location}</p>
