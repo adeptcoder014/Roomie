@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './Header';
-import ImageSection from './ImageSection';
-import CardSection from './CardSection';
-import StatsSection from './StatsSection';
+import Header from '../component/Header';
+import ImageSection from '../component/ImageSection';
+import CardSection from '../component/CardSection';
+import StatsSection from '../component/StatsSection';
 
 const MainContainer = () => {
   return (

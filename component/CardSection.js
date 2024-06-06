@@ -5,17 +5,17 @@ const CardSection = () => {
     <div className="md:w-1/2 flex flex-col space-y-4">
       <Card 
         title="Modern Student Housing"
-        image="/path/to/student.jpg" // Replace with the correct path
+        image="Stock1.jpg" // Replace with the correct path
         alt="Student Housing"
       />
       <Card 
         title="Co-living for Professionals"
-        image="/path/to/professionals.jpg" // Replace with the correct path
+        image="Stock2.jpg" // Replace with the correct path
         alt="Co-living for Professionals"
       />
       <Card 
         title="Managed Apartments"
-        image="/path/to/apartments.jpg" // Replace with the correct path
+        image="Stock3.jpg" // Replace with the correct path
         alt="Managed Apartments"
       />
     </div>
